@@ -1,59 +1,29 @@
-## Introduction
+Make sure that tags with an open and close tag such as `<div>` and `</div>` are correctly matched and nested.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+This HTML is incorrect because there is no closing `</div>` tag. 
 
-### What you will make
-
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
+language: HTML
+filename: index.html
+line_numbers: false
 ---
-### Hardware
+<section>
+<div><p>Lorem ipsum</p>
+</section>
+--- /code ---
 
-+ A computer or tablet capable of running Scratch 3
+This HTML is incorrect because the `</div>` appears before the closing `</p>` tag.
 
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will learn
+language: HTML
+filename: index.html
+line_numbers: false
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+<div><p>Lorem ipsum</div></p>
 
---- /collapse ---
+--- /code ---
 
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+**Tip:** If your HTML is incorrect then sometimes a web browser will work out what you meant. You should still make sure your HTML is correct as incorrect HTML might cause problems later and make make it difficult for screen readers to understand your page. 
