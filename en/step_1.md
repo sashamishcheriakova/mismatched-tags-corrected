@@ -26,4 +26,4 @@ line_numbers: false
 
 --- /code ---
 
-**Tip:** If your HTML is incorrect then sometimes a web browser will work out what you meant. You should still make sure your HTML is correct as incorrect HTML might cause problems later and make make it difficult for screen readers to understand your page. 
+**Tip:** If your HTML is incorrect, then sometimes a web browser will work out what you meant. You should still make sure your HTML is correct as incorrect HTML might cause problems later. Incorrect HTML also makes it difficult for screen readers to understand your page. 
