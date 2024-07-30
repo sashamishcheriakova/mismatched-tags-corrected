@@ -8,9 +8,11 @@ language: HTML
 filename: index.html
 line_numbers: false
 ---
+
 <section>
 <div><p>Lorem ipsum</p>
 </section>
+
 --- /code ---
 
 This HTML is incorrect because the `</div>` appears before the closing `</p>` tag.
@@ -22,7 +24,7 @@ filename: index.html
 line_numbers: false
 ---
 
-<div><p>Lorem ipsum</p></div>
+<div><p>Lorem ipsum</div></p>
 
 --- /code ---
 
