@@ -22,7 +22,7 @@ filename: index.html
 line_numbers: false
 ---
 
-<div><p>Lorem ipsum</div></p>
+<div><p>Lorem ipsum</p></div>
 
 --- /code ---
 
